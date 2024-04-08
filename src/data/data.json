@@ -1,0 +1,137 @@
+[
+    {
+        "intro": "Hola, RichyDev en este mundo de la programación, pero mi nombre es Richard. Soy desarrollador full-stack con más de un 8 años de experiencia. Soy un apasionado por la informática. Me gusta el diseño UI/UX, creo en la buena comunicacion apartir de una interfaz limpia y directa.",
+        "aboutMe": "Soy Tecnólogo en Sistemas. Siempre me ha preocupado aprender más allá de lo que se me enseña, por lo que he estudiado muchos otros temas y lenguajes por mi cuenta para estar al tanto del mundo actual de las tecnologías. Mi parte favorita de la programación es el aspecto de resolución de problemas. Me encanta la sensación de finalmente encontrar una solución a un problema. Mi stack principal es React, Next.js, Node.js, PostgreSQL, MongoDB, GraphQL, y Amazon Web Services (AWS). Siempre estoy buscando aprender nuevas tecnologías que me complementen como desarrollador.Cuando no estoy programando, disfruto jugando videojuegos y escuchando musica.",
+        "knowledge": [
+            {
+                "id": 1,
+                "title": "JavaScript"
+            },
+            {
+                "id": 2,
+                "title": "CSS"
+            },
+            {
+                "id": 3,
+                "title": "React"
+            },
+            {
+                "id": 4,
+                "title": "HTML"
+            },
+            {
+                "id": 5,
+                "title": "Redux"
+            },
+            {
+                "id": 6,
+                "title": "Express"
+            },
+            {
+                "id": 7,
+                "title": "SQLServer"
+            },
+            {
+                "id": 8,
+                "title": "MySQL"
+            },
+            {
+                "id": 9,
+                "title": "Git"
+            },
+            {
+                "id": 10,
+                "title": "GitHub"
+            },
+            {
+                "id": 11,
+                "title": "PHP"
+            },
+            {
+                "id": 12,
+                "title": "MongoDB"
+            },
+            {
+                "id": 13,
+                "title": "Node.Js"
+            }
+
+        ],
+        "projects":[
+            {
+                "id": 1,
+                "title": "Poyecto 1",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales.",
+                "technologies": [
+                    {
+                        "id": 1,
+                        "tech": "JavaScript"
+                    },
+                    {
+                        "id": 2,
+                        "tech": "HTML"
+                    },
+                    {
+                        "id": 3,
+                        "tech": "CSS"
+                    }
+                ],
+                "link": "www.google.com"
+            },
+            {
+                "id": 2,
+                "title": "Poyecto 2",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales.",
+                "technologies": [
+                    {
+                        "id": 1,
+                        "tech": "JavaScript"
+                    },
+                    {
+                        "id": 2,
+                        "tech": "HTML"
+                    },
+                    {
+                        "id": 3,
+                        "tech": "CSS"
+                    }
+                ],
+                "link": "www.google.com"
+            },
+            {
+                "id": 3,
+                "title": "Poyecto 3",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales.",
+                "technologies": [
+                    {
+                        "id": 1,
+                        "tech": "JavaScript"
+                    },
+                    {
+                        "id": 2,
+                        "tech": "HTML"
+                    },
+                    {
+                        "id": 3,
+                        "tech": "CSS"
+                    }
+                ],
+                "link": "www.google.com"
+            }
+        ],
+        "experience": [
+            {
+                "id": 1,
+                "year": "2012 - 2014",
+                "position": "Digitalizador",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales. Quisque suscipit fringilla facilisis. In ut nisi enim. Curabitur cursus nibh non nisi sollicitudin luctus."
+            },
+            {
+                "id": 2,
+                "year": "2010 - 2024",
+                "position": "Freelancer",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales. Quisque suscipit fringilla facilisis. In ut nisi enim. Curabitur cursus nibh non nisi sollicitudin luctus."
+            }
+        ]
+    }
+]

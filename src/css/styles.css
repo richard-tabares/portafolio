@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primaryLight font-prueba text-gray-700;
+}
+
+.btn-primary {
+  @apply px-8
+    py-1
+    bg-primaryLight
+    border
+    border-thirdLight
+    shadow-flat
+    shadow-[#526D82]
+    hover:bg-[#526D82]
+    hover:text-gray-50
+    hover:shadow-none
+    transition-all;
+}
+@layer components {
+  /* ******************** */
+  /* Light Theme */
+  /* ******************** */
+
+  .lightIcons {
+    @apply text-secondaryLight hover:text-gray-700;
+  }
+  .lightSeparators {
+    @apply w-1 h-16 bg-thirdLight my-10 opacity-40;
+  }
+  .lightMobileBackground{
+    @apply bg-primaryLight
+  }
+  .lightTextMenu{
+    @apply text-secondaryLight
+  }
+  .lightProject{
+    @apply shadow-[#526D82] shadow-flat
+  }
+  .lightProjectLink{
+    @apply text-thirdLight
+  }
+  .lightProjectTech{
+    @apply text-gray-50 bg-thirdLight
+  }
+
+  /* ******************** */
+  /* Dark Theme */
+  /* ******************** */
+
+  .darkText {
+    @apply text-gray-200;
+  }
+  .darkButton {
+    @apply bg-primaryDark hover:bg-gray-200 hover:text-primaryDark shadow-gray-600;
+  }
+  .darkIcons {
+    @apply text-gray-200 hover:text-gray-400;
+  }
+  .darkSeparators {
+    @apply bg-gray-200;
+  }
+  .darkMobileBackground{
+    @apply bg-primaryDark
+  }
+  .darkTextMenu{
+    @apply dark:text-gray-200
+  }
+  .darkProject{
+    @apply shadow-gray-600
+  }
+  .darkProjectLink{
+    @apply text-gray-200
+  }
+  .darkProjectTech{
+    @apply text-gray-50 bg-primaryDark border-thirdLight border-2
+  }
+}
