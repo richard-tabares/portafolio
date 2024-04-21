@@ -3,10 +3,9 @@ import { FiAlignRight, FiMoon, FiSun, FiX } from "react-icons/fi"
 import { MenuItems } from "./MenuItems"
 import { useFetchData } from "../hooks/useFetchData"
 
-export const Menu = () => {
+export const Menu = ({jsonMenu}) => {
 
-    // const urlMenu = './src/data/menu.json'
-    const urlMenu = '/menu.json'
+    const urlMenu = jsonMenu
     const menuItems = useFetchData(urlMenu)
 
     const [isActiveDarkMode, setIsActiveDarkMode] = useState(false)
@@ -35,15 +34,15 @@ export const Menu = () => {
     return (
 
         <>
-            <nav className="flex items-center justify-between" id="#home">
+            <nav className="container flex items-center justify-between py-4 bg-primaryLight dark:bg-primaryDark w-full md:w-2/4 px-4 sticky top-0 z-10 opacity-[0.96]" id="#home">
                 <div className="flex gap-4 items-center">
                     <div className="xl:w-14 xl:h-14 rounded-full bg-gray-200 w-10 h-10"></div>
                     <div>
                         <a href="#home">
                             <div className="font-bold text-xl dark:text-gray-50 block">Richard Tabares</div>
                         </a>
-                        <div className={`xl:relative xl:text-left xl:w-full xl:mt-0 xl:inline absolute left-0 top-0 text-right w-screen h-screen lightMobileBackground dark:darkMobileBackground ${isMobileActive ? 'block' : 'hidden'}`}>
-                            <a href="#home" onClick={isMobile}>
+                        <div className={`xl:relative xl:mt-0 xl:inline fixed left-0 top-0 text-right w-full h-screen p-4 xl:p-0 lightMobileBackground dark:darkMobileBackground ${isMobileActive ? 'block' : 'hidden'}`}>
+                            <a href="#" onClick={isMobile}>
                                 <FiX className={`xl:hidden text-2xl lightIcons dark:darkIcons inline ${isMobileActive ? 'block' : 'hidden'}`} />
                             </a>
                             {

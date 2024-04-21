@@ -8,21 +8,33 @@ import { Separador } from "./components/Separador"
 import { SobreMi } from "./components/SobreMi"
 
 export const App = () => {
-  return (
-    <main id="home" className="container md:w-2/4 w-auto h-screen p-8 py-10 dark:darkText">
-      
-      <Menu />
-      <Home />
-      <Separador />
-      <SobreMi />
-      <Separador />
-      <Conocimientos />
-      <Separador />
-      <Poryectos />
-      <Separador />
-      <Experiencia />
-      <Footer />
 
-    </main>
+  //developer
+  const jsonMenu = './src/data/menu.json'
+  const jsonData = './src/data/data.json'
+  //production
+  // const jsonMenu = './menu.json'
+  // const jsonData = './data.json'
+
+  return (
+    <>
+
+      <Menu jsonMenu={jsonMenu} />
+      <main id="home" className="container md:w-2/4 w-auto p-8 h-full dark:darkText">
+
+        <Home jsonData={jsonData} />
+        <Separador jsonData={jsonData} />
+        {/* <SobreMi jsonData={ jsonData } /> */}
+        {/* <Separador /> */}
+        <Conocimientos jsonData={jsonData} />
+        <Separador jsonData={jsonData} />
+        <Poryectos jsonData={jsonData} />
+        <Separador jsonData={jsonData} />
+        <Experiencia jsonData={jsonData} />
+        <Footer jsonData={jsonData} />
+
+      </main>
+      
+    </>
   )
 }

@@ -1,7 +1,7 @@
 [
     {
-        "intro": "Hola, RichyDev en este mundo de la programación, pero mi nombre es Richard. Soy desarrollador full-stack con más de un 8 años de experiencia. Soy un apasionado por la informática. Me gusta el diseño UI/UX, creo en la buena comunicacion apartir de una interfaz limpia y directa.",
-        "aboutMe": "Soy Tecnólogo en Sistemas. Siempre me ha preocupado aprender más allá de lo que se me enseña, por lo que he estudiado muchos otros temas y lenguajes por mi cuenta para estar al tanto del mundo actual de las tecnologías. Mi parte favorita de la programación es el aspecto de resolución de problemas. Me encanta la sensación de finalmente encontrar una solución a un problema. Mi stack principal es React, Next.js, Node.js, PostgreSQL, MongoDB, GraphQL, y Amazon Web Services (AWS). Siempre estoy buscando aprender nuevas tecnologías que me complementen como desarrollador.Cuando no estoy programando, disfruto jugando videojuegos y escuchando musica.",
+        "intro": "¡Hola, mundo! Soy RichyDev, un apasionado del desarrollo Frontend. Me gusta el diseño UI/UX, creo en la buena comunicación a partir de una interfaz limpia y directa. Mi misión es crear interfaces minimalistas que no solo sean visualmente impactantes, sino también intuitivas y accesibles para todos los usuarios.\n\n¡Bienvenido a mi mundo digital! Te invito a explorar mi portafolio y descubrir como puedo darle vida a tu proyecto.",
+        "aboutMe": "Crecí obsesionado con la idea de saber el cómo y por qué funcionan las cosas que nos rodean, de niño me encantaba destapar productos tecnológicos y quedar impresionado con lo que yo llamaba ciudades tecnológicas; sus condensadores, resistencias y chips llamaban mi especial atención, creía que era ciertos edificios del futuro. Toda esta curiosidad me llevo a descubrir la programación, la cual permitía saber el cómo y porque se ejecutaba cada línea de cogido (esto me parece fascinante).\nEn mis inicios aprendí un poco de Visual Basic, C++ y Java, pero mi interés iba más por crear interfaces de usuarios para sitios web o aplicaciones móviles, esto me lleva a estudiar diseño gráfico (me lo disfruté al máximo y conocí a una persona muy especial que me acompaña hasta el día de hoy… bueno eso es otra historia) explore un mundo totalmente distinto pero que al mismo tiempo me ayudo a conectar los dos mundos, desarrollo de software y diseño de interfaces.\nHa sido un largo viaje de mucho trabajo y a la vez de mucho aprendizaje. \n\n¡Bienvenido a mi mundo digital! Te invito a explorar mi portafolio y descubrir como puedo darle vida a tu proyecto.",
         "knowledge": [
             {
                 "id": 1,
@@ -21,47 +21,31 @@
             },
             {
                 "id": 5,
-                "title": "Redux"
-            },
-            {
-                "id": 6,
-                "title": "Express"
-            },
-            {
-                "id": 7,
                 "title": "SQLServer"
             },
             {
-                "id": 8,
+                "id": 6,
                 "title": "MySQL"
             },
             {
-                "id": 9,
+                "id": 7,
                 "title": "Git"
             },
             {
-                "id": 10,
+                "id": 8,
                 "title": "GitHub"
             },
             {
-                "id": 11,
+                "id": 9,
                 "title": "PHP"
-            },
-            {
-                "id": 12,
-                "title": "MongoDB"
-            },
-            {
-                "id": 13,
-                "title": "Node.Js"
-            }
+            }       
 
         ],
         "projects":[
             {
                 "id": 1,
-                "title": "Poyecto 1",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales.",
+                "title": "Sitio Web Hospital San Vicente de Paúl",
+                "description": "Creé un sitio web corporativo para el Hospital de Remedios Antioquia, centrado en mejorar la gestión interna y la interacción con la comunidad. Incluí módulos personalizados de PQRSF para rastrear y gestionar las solicitudes, así como un sistema de publicación de noticias y carga de documentos. Además, diseñé un intuitivo dashboard para simplificar la administración y supervisión de todo el contenido del sitio.",
                 "technologies": [
                     {
                         "id": 1,
@@ -74,18 +58,34 @@
                     {
                         "id": 3,
                         "tech": "CSS"
+                    },
+                    {
+                        "id": 4,
+                        "tech": "Bootstrap"
+                    },
+                    {
+                        "id": 5,
+                        "tech": "PHP"
+                    },
+                    {
+                        "id": 6,
+                        "tech": "MySQL"
+                    },
+                    {
+                        "id": 7,
+                        "tech": "Tailwind"
                     }
                 ],
-                "link": "www.google.com"
+                "link": "http://hsvpremedios.gov.co"
             },
             {
                 "id": 2,
-                "title": "Poyecto 2",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales.",
+                "title": "Portafolio Personal",
+                "description": "Desarrollé un portafolio personal en una única página, con un diseño simple y minimalista. La prioridad fue comunicar de manera intuitiva y directa mis proyectos personales, destacando su creatividad y profesionalismo. ¡Explora y conoce más sobre mi trabajo de forma fácil y rápida!.",
                 "technologies": [
                     {
                         "id": 1,
-                        "tech": "JavaScript"
+                        "tech": "React"
                     },
                     {
                         "id": 2,
@@ -94,43 +94,113 @@
                     {
                         "id": 3,
                         "tech": "CSS"
+                    },
+                    {
+                        "id": 4,
+                        "tech": "Tailwind"
+                    },
+                    {
+                        "id": 5,
+                        "tech": "React Icons"
                     }
                 ],
-                "link": "www.google.com"
+                "link": "http://richardtabares.dev"
             },
             {
                 "id": 3,
-                "title": "Poyecto 3",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales.",
+                "title": "Diseño de app",
+                "description": "Diseñé una interfaz gráfica para una aplicación de comidas rápidas, optimizada para su uso tanto en escritorio como en dispositivos móviles. Cada elemento fue cuidadosamente pensado para garantizar una experiencia de usuario intuitiva y atractiva en todas las plataformas.",
                 "technologies": [
                     {
                         "id": 1,
-                        "tech": "JavaScript"
+                        "tech": "React Native"
                     },
                     {
                         "id": 2,
-                        "tech": "HTML"
+                        "tech": "Expo"
                     },
                     {
                         "id": 3,
                         "tech": "CSS"
+                    },
+                    {
+                        "id": 4,
+                        "tech": "Express"
+                    },
+                    {
+                        "id": 5,
+                        "tech": "Adobe XD"
                     }
                 ],
-                "link": "www.google.com"
+                "link": "http://fasty.com"
+            },
+            {
+                "id": 4,
+                "title": "Sistemas de Gestión de Suscripciones",
+                "description": "Una aplicación web integral para gestionar suscripciones a revistas y ventas de libros. Esta plataforma permite un control completo de inventario, incluyendo la gestión de existencias, generación de órdenes de despacho, así como la administración de clientes y proveedores. Simplificando así, todos los aspectos del proceso, desde la compra hasta la entrega.\n\nWeb privada no accesible al publico.",
+                "technologies": [
+                    {
+                        "id": 1,
+                        "tech": "HTML"
+                    },
+                    {
+                        "id": 2,
+                        "tech": "CSS"
+                    },
+                    {
+                        "id": 3,
+                        "tech": "JavaScript"
+                    },
+                    {
+                        "id": 4,
+                        "tech": "PHP"
+                    },
+                    {
+                        "id": 5,
+                        "tech": "MySQL"
+                    }
+                ],
+                "link": "http://revtec.com.co/revtec"
+            },
+            {
+                "id": 5,
+                "title": "Sitio web corporativo Ultramarine",
+                "description": "Creación de un sitio web corporativo especializado en la venta de productos alimenticios de alta calidad, como vinos, aceite de oliva, especias y salsas. Diseñado con una plataforma intuitiva y atractiva, este espacio invita a los clientes a explorar y adquirir una amplia variedad de deliciosos productos gastronómicos.",
+                "technologies": [
+                    {
+                        "id": 1,
+                        "tech": "HTML"
+                    },
+                    {
+                        "id": 2,
+                        "tech": "CSS"
+                    },
+                    {
+                        "id": 3,
+                        "tech": "JavaScript"
+                    }
+                ],
+                "link": "http://ultramarine.bz"
             }
         ],
         "experience": [
             {
                 "id": 1,
-                "year": "2012 - 2014",
-                "position": "Digitalizador",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales. Quisque suscipit fringilla facilisis. In ut nisi enim. Curabitur cursus nibh non nisi sollicitudin luctus."
+                "year": "2014 - 2020",
+                "position": "Coordinador de Proyectos",
+                "description": "Me he especializado en el área de sistemas, desempeñándome como responsable del soporte técnico en el sitio, la corrección de errores y la creación de soluciones informáticas a medida. Mi enfoque se centró en desarrollar sistemas eficientes para la administración de suscripciones a revistas y libros, garantizando procesos fluidos y adaptados a las necesidades específicas de la empresa. "
             },
             {
                 "id": 2,
-                "year": "2010 - 2024",
-                "position": "Freelancer",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui lorem, porttitor non dolor et, fermentum auctor metus. Cras pretium id lorem et finibus. Pellentesque porta tortor in pulvinar sagittis. Donec ullamcorper tortor sed convallis sodales. Quisque suscipit fringilla facilisis. In ut nisi enim. Curabitur cursus nibh non nisi sollicitudin luctus."
+                "year": "2021 - 2024",
+                "position": "Coordinador de Sistemas",
+                "description": "Administración de sistemas ERP, redes de datos y firewalls. Además, brindo soporte técnico en el sitio y desarrollo soluciones tecnológicas acertadas para diversas áreas. Mi enfoque radica en garantizar la eficiencia operativa y la seguridad de la infraestructura tecnológica, así como en proporcionar soluciones innovadoras que impulsen el éxito de la organización en su conjunto."
+            },
+            {
+                "id": 3,
+                "year": "2014 - 2024",
+                "position": "FreeLancer",
+                "description": "A lo largo de los años, he trabajado de manera independiente con diversas empresas, creando soluciones a medida, sitios web y bases de datos adaptadas a sus necesidades específicas. Además, he trabajado como diseñador gráfico en la creación de marcas personales, piezas gráficas e interfaces, contribuyendo así a fortalecer la presencia digital y la identidad visual de mis clientes. \n\nMi enfoque es siempre ofrecer soluciones creativas y efectivas que impulsen el éxito y la visibilidad de cada proyecto."
             }
         ]
     }

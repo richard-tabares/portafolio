@@ -1,10 +1,9 @@
 import { useFetchData } from "../hooks/useFetchData"
 import { ExperienciaItems } from "./ExperienciaItems"
 
-export const Experiencia = () => {
+export const Experiencia = ({jsonData}) => {
 
-    // const url = './src/data/data.json'
-    const url = '/data.json'
+    const url = jsonData
     const data = useFetchData(url)
 
     return (

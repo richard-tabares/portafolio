@@ -1,9 +1,8 @@
 import { useFetchData } from "../hooks/useFetchData"
 
-export const SobreMi = () => {
+export const SobreMi = ({jsonData}) => {
 
-    // const url = './src/data/data.json'
-    const url = '/data.json'
+    const url = jsonData
     const data = useFetchData(url)
 
     return (

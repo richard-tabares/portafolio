@@ -20,6 +20,23 @@ body {
     transition-all;
 }
 @layer components {
+  .bottom-line {
+    /* @apply border-b conten */
+  }
+  .bottom-line::after {
+    content: ""; /* Necesario para que el seudoelemento sea visible */
+    position: absolute; /* Posicionar el seudoelemento encima del borde inferior */
+    bottom: 0; /* Colocar el seudoelemento en la parte inferior */
+    left: 0%; /* Ajustar la posición inicial del degradado */
+    width: 100%; /* Ancho del degradado */
+    height: 1px; /* Altura del degradado */
+    background: linear-gradient(
+      to right,
+      transparent,
+      #999,
+      transparent
+    ); /* Degradado lineal desvanecido */
+  }
   /* ******************** */
   /* Light Theme */
   /* ******************** */
@@ -28,22 +45,22 @@ body {
     @apply text-secondaryLight hover:text-gray-700;
   }
   .lightSeparators {
-    @apply w-1 h-16 bg-thirdLight my-10 opacity-40;
+    @apply w-1 h-16 bg-thirdLight my-12 opacity-40;
   }
-  .lightMobileBackground{
-    @apply bg-primaryLight
+  .lightMobileBackground {
+    @apply bg-primaryLight;
   }
-  .lightTextMenu{
-    @apply text-secondaryLight
+  .lightTextMenu {
+    @apply text-secondaryLight;
   }
-  .lightProject{
-    @apply shadow-[#526D82] shadow-flat
+  .lightProject {
+    @apply shadow-[#526D82] shadow-flat;
   }
-  .lightProjectLink{
-    @apply text-thirdLight
+  .lightProjectLink {
+    @apply text-thirdLight;
   }
-  .lightProjectTech{
-    @apply text-gray-50 bg-thirdLight
+  .lightProjectTech {
+    @apply text-gray-50 bg-thirdLight;
   }
 
   /* ******************** */
@@ -62,19 +79,19 @@ body {
   .darkSeparators {
     @apply bg-gray-200;
   }
-  .darkMobileBackground{
-    @apply bg-primaryDark
+  .darkMobileBackground {
+    @apply bg-primaryDark;
   }
-  .darkTextMenu{
-    @apply dark:text-gray-200
+  .darkTextMenu {
+    @apply dark:text-gray-200;
   }
-  .darkProject{
-    @apply shadow-gray-600
+  .darkProject {
+    @apply shadow-gray-600;
   }
-  .darkProjectLink{
-    @apply text-gray-200
+  .darkProjectLink {
+    @apply text-gray-200;
   }
-  .darkProjectTech{
-    @apply text-gray-50 bg-primaryDark border-thirdLight border-2
+  .darkProjectTech {
+    @apply text-gray-50 bg-primaryDark border-thirdLight border-2;
   }
 }

@@ -18,7 +18,7 @@ export const ExperienciaItems = ({data}) => {
                             <header className="font-bold text-xl text-secondaryLight dark:text-gray-200 mt-4">
                                 {expItem.position}
                             </header>
-                            <article className="mt-4">
+                            <article className="mt-4 whitespace-break-spaces">
                                 {expItem.description}
                             </article>
                         </section>
