@@ -27,7 +27,7 @@ export const Home = ({jsonData}) => {
                     <div className="inline"><strong>Encuentrame en </strong></div>
                     <a href="https://github.com/richard-tabares" target="_blank"><FiGithub className="hover:text-gray-400 mx-3 inline" /></a>
                     <a href="https://www.linkedin.com/in/richard-tabares/" target="_blank"><FiLinkedin className="hover:text-gray-400 mx-3 inline" /></a>
-                    <a href="https://www.instagram.com/richardtabaresb" target="_blank"><FiInstagram className="hover:text-gray-400 mx-3 inline" /></a>
+                    {/* <a href="https://www.instagram.com/richardtabaresb" target="_blank"><FiInstagram className="hover:text-gray-400 mx-3 inline" /></a> */}
                     <a href="mailto:richardtabaresb@gmail.com"><FiMail className="hover:text-gray-400 mx-3 inline" /></a>
                     <a href="./Richard_Tabares_CV.pdf" target="_blank">
                         <button type="button" className="block mt-4 btn-primary dark:darkButton">

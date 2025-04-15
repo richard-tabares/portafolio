@@ -10,11 +10,11 @@ import { SobreMi } from "./components/SobreMi"
 export const App = () => {
 
   //developer
-  const jsonMenu = './src/data/menu.json'
-  const jsonData = './src/data/data.json'
+  // const jsonMenu = './src/data/menu.json'
+  // const jsonData = './src/data/data.json'
   //production
-  // const jsonMenu = './menu.json'
-  // const jsonData = './data.json'
+  const jsonMenu = './menu.json'
+  const jsonData = './data.json'
 
   return (
     <>

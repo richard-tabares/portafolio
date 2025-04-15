@@ -17,7 +17,7 @@
             },
             {
                 "id": 4,
-                "title": "HTML"
+                "title": "NodeJs"
             },
             {
                 "id": 5,
@@ -38,6 +38,10 @@
             {
                 "id": 9,
                 "title": "PHP"
+            },
+            {
+                "id": 10,
+                "title": "HTML"
             }       
 
         ],
@@ -80,8 +84,8 @@
             },
             {
                 "id": 2,
-                "title": "Portafolio Personal",
-                "description": "Desarrollé un portafolio personal en una única página, con un diseño simple y minimalista. La prioridad fue comunicar de manera intuitiva y directa mis proyectos personales, destacando su creatividad y profesionalismo. ¡Explora y conoce más sobre mi trabajo de forma fácil y rápida!.",
+                "title": "Modulo Consulta Web Fiscalía",
+                "description": "Desarrollé un módulo de consulta de denuncias que valida la existencia de un caso y, de encontrarlo, muestra una vista con la información relevante de manera clara y eficiente.",
                 "technologies": [
                     {
                         "id": 1,
@@ -89,53 +93,17 @@
                     },
                     {
                         "id": 2,
-                        "tech": "HTML"
+                        "tech": "NodeJs"
                     },
                     {
                         "id": 3,
-                        "tech": "CSS"
-                    },
-                    {
-                        "id": 4,
                         "tech": "Tailwind"
-                    },
-                    {
-                        "id": 5,
-                        "tech": "React Icons"
                     }
                 ],
-                "link": "http://richardtabares.dev"
+                "link": "https://www.fiscalia.gov.co/colombia/servicios-de-informacion-al-ciudadano/consultas/#1536851620255-61ce92ac-374f"
             },
             {
                 "id": 3,
-                "title": "Diseño de app",
-                "description": "Diseñé una interfaz gráfica para una aplicación de comidas rápidas, optimizada para su uso tanto en escritorio como en dispositivos móviles. Cada elemento fue cuidadosamente pensado para garantizar una experiencia de usuario intuitiva y atractiva en todas las plataformas.",
-                "technologies": [
-                    {
-                        "id": 1,
-                        "tech": "React Native"
-                    },
-                    {
-                        "id": 2,
-                        "tech": "Expo"
-                    },
-                    {
-                        "id": 3,
-                        "tech": "CSS"
-                    },
-                    {
-                        "id": 4,
-                        "tech": "Express"
-                    },
-                    {
-                        "id": 5,
-                        "tech": "Adobe XD"
-                    }
-                ],
-                "link": "http://fasty.com"
-            },
-            {
-                "id": 4,
                 "title": "Sistemas de Gestión de Suscripciones",
                 "description": "Una aplicación web integral para gestionar suscripciones a revistas y ventas de libros. Esta plataforma permite un control completo de inventario, incluyendo la gestión de existencias, generación de órdenes de despacho, así como la administración de clientes y proveedores. Simplificando así, todos los aspectos del proceso, desde la compra hasta la entrega.\n\nWeb privada no accesible al publico.",
                 "technologies": [
@@ -163,7 +131,7 @@
                 "link": "http://revtec.com.co/revtec"
             },
             {
-                "id": 5,
+                "id": 4,
                 "title": "Sitio web corporativo Ultramarine",
                 "description": "Creación de un sitio web corporativo especializado en la venta de productos alimenticios de alta calidad, como vinos, aceite de oliva, especias y salsas. Diseñado con una plataforma intuitiva y atractiva, este espacio invita a los clientes a explorar y adquirir una amplia variedad de deliciosos productos gastronómicos.",
                 "technologies": [
@@ -192,13 +160,13 @@
             },
             {
                 "id": 2,
-                "year": "2021 - 2024",
+                "year": "2021 - 2025",
                 "position": "Coordinador de Sistemas",
                 "description": "Administración de sistemas ERP, redes de datos y firewalls. Además, brindo soporte técnico en el sitio y desarrollo soluciones tecnológicas acertadas para diversas áreas. Mi enfoque radica en garantizar la eficiencia operativa y la seguridad de la infraestructura tecnológica, así como en proporcionar soluciones innovadoras que impulsen el éxito de la organización en su conjunto."
             },
             {
                 "id": 3,
-                "year": "2014 - 2024",
+                "year": "2014 - 2025",
                 "position": "FreeLancer",
                 "description": "A lo largo de los años, he trabajado de manera independiente con diversas empresas, creando soluciones a medida, sitios web y bases de datos adaptadas a sus necesidades específicas. Además, he trabajado como diseñador gráfico en la creación de marcas personales, piezas gráficas e interfaces, contribuyendo así a fortalecer la presencia digital y la identidad visual de mis clientes. \n\nMi enfoque es siempre ofrecer soluciones creativas y efectivas que impulsen el éxito y la visibilidad de cada proyecto."
             }
