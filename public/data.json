@@ -1,6 +1,6 @@
 [
     {
-        "intro": "Desarrollador Frontend apasionado por el diseño UI/UX y la creación de interfaces web limpias, funcionales y accesibles. Con sólida experiencia en desarrollo de aplicaciones web utilizando tecnologías modernas como React y el stack MERN.\n Fuerte orientación al detalle, pensamiento creativo y habilidades para la resolución de problemas. Experiencia en soporte técnico, administración de sistemas y diseño gráfico, lo que me permite aportar soluciones integrales a nivel técnico y visual.",
+        "intro": "Desarrollador Frontend apasionado por el diseño UI/UX y la creación de interfaces web limpias, funcionales y accesibles. Con sólida experiencia en desarrollo de aplicaciones web utilizando tecnologías modernas como React y el stack MERN.\nFuerte orientación al detalle, pensamiento creativo y habilidades para la resolución de problemas. Experiencia en soporte técnico, administración de sistemas y diseño gráfico, lo que me permite aportar soluciones integrales a nivel técnico y visual.",
         "aboutMe": "Crecí obsesionado con la idea de saber el cómo y por qué funcionan las cosas que nos rodean, de niño me encantaba destapar productos tecnológicos y quedar impresionado con lo que yo llamaba ciudades tecnológicas; sus condensadores, resistencias y chips llamaban mi especial atención, creía que era ciertos edificios del futuro. Toda esta curiosidad me llevo a descubrir la programación, la cual permitía saber el cómo y porque se ejecutaba cada línea de cogido (esto me parece fascinante).\nEn mis inicios aprendí un poco de Visual Basic, C++ y Java, pero mi interés iba más por crear interfaces de usuarios para sitios web o aplicaciones móviles, esto me lleva a estudiar diseño gráfico (me lo disfruté al máximo y conocí a una persona muy especial que me acompaña hasta el día de hoy… bueno eso es otra historia) explore un mundo totalmente distinto pero que al mismo tiempo me ayudo a conectar los dos mundos, desarrollo de software y diseño de interfaces.\nHa sido un largo viaje de mucho trabajo y a la vez de mucho aprendizaje. \n\n¡Bienvenido a mi mundo digital! Te invito a explorar mi portafolio y descubrir como puedo darle vida a tu proyecto.",
         "knowledge": [
             {
@@ -42,12 +42,36 @@
             {
                 "id": 10,
                 "title": "HTML"
+            },       
+            {
+                "id": 11,
+                "title": "Supabase"
             }       
 
         ],
         "projects":[
             {
                 "id": 1,
+                "title": "Modulo Consulta Web Fiscalía",
+                "description": "Desarrollé un módulo de consulta de denuncias que valida la existencia de un caso y, en caso de encontrarlo, presenta la información relevante de forma clara y eficiente. Además, diseñé una nueva interfaz gráfica para mejorar la visibilidad y accesibilidad del módulo, optimizando la experiencia del usuario.",
+                "technologies": [
+                    {
+                        "id": 1,
+                        "tech": "React"
+                    },
+                    {
+                        "id": 2,
+                        "tech": "NodeJs"
+                    },
+                    {
+                        "id": 3,
+                        "tech": "Tailwind"
+                    }
+                ],
+                "link": "https://shre.ink/fiscalia"
+            },
+            {
+                "id": 2,
                 "title": "Sitio Web Hospital San Vicente de Paúl",
                 "description": "Creé un sitio web corporativo para el Hospital de Remedios Antioquia, centrado en mejorar la gestión interna y la interacción con la comunidad. Incluí módulos personalizados de PQRSF para rastrear y gestionar las solicitudes, así como un sistema de publicación de noticias y carga de documentos. Además, diseñé un intuitivo dashboard para simplificar la administración y supervisión de todo el contenido del sitio.",
                 "technologies": [
@@ -81,26 +105,6 @@
                     }
                 ],
                 "link": "http://hsvpremedios.gov.co"
-            },
-            {
-                "id": 2,
-                "title": "Modulo Consulta Web Fiscalía",
-                "description": "Desarrollé un módulo de consulta de denuncias que valida la existencia de un caso y, de encontrarlo, muestra una vista con la información relevante de manera clara y eficiente.",
-                "technologies": [
-                    {
-                        "id": 1,
-                        "tech": "React"
-                    },
-                    {
-                        "id": 2,
-                        "tech": "NodeJs"
-                    },
-                    {
-                        "id": 3,
-                        "tech": "Tailwind"
-                    }
-                ],
-                "link": "https://www.fiscalia.gov.co/colombia/servicios-de-informacion-al-ciudadano/consultas/#1536851620255-61ce92ac-374f"
             },
             {
                 "id": 3,
@@ -154,21 +158,33 @@
         "experience": [
             {
                 "id": 1,
-                "year": "2014 - 2020",
-                "position": "Coordinador de Proyectos",
-                "description": "Me he especializado en el área de sistemas, desempeñándome como responsable del soporte técnico en el sitio, la corrección de errores y la creación de soluciones informáticas a medida. Mi enfoque se centró en desarrollar sistemas eficientes para la administración de suscripciones a revistas y libros, garantizando procesos fluidos y adaptados a las necesidades específicas de la empresa. "
-            },
-            {
-                "id": 2,
-                "year": "2021 - 2025",
                 "position": "Coordinador de Sistemas",
+                "companyYear": "Hospital San Vicen de Paúl, Remedios | 2021 - 2025",
                 "description": "Administración de sistemas ERP, redes de datos y firewalls. Además, brindo soporte técnico en el sitio y desarrollo soluciones tecnológicas acertadas para diversas áreas. Mi enfoque radica en garantizar la eficiencia operativa y la seguridad de la infraestructura tecnológica, así como en proporcionar soluciones innovadoras que impulsen el éxito de la organización en su conjunto."
             },
             {
+                "id": 2,
+                "position": "Coordinador de Proyectos Tecnológicos",
+                "companyYear": "Revistas Técnicas | 2014 - 2020",
+                "description": "Desarrollé aplicativo web para la gestión de suscripciones a revistas y libros, administrando bases de datos y brindando soporte técnico, así como mantenimiento correctivo del software. También he automatizado procesos administrativos mediante herramientas a la medida, liderando la implementación de soluciones tecnológicas personalizadas orientadas a optimizar las operaciones editoriales y la venta de libros."
+            },
+            {
                 "id": 3,
-                "year": "2014 - 2025",
-                "position": "FreeLancer",
-                "description": "A lo largo de los años, he trabajado de manera independiente con diversas empresas, creando soluciones a medida, sitios web y bases de datos adaptadas a sus necesidades específicas. Además, he trabajado como diseñador gráfico en la creación de marcas personales, piezas gráficas e interfaces, contribuyendo así a fortalecer la presencia digital y la identidad visual de mis clientes. \n\nMi enfoque es siempre ofrecer soluciones creativas y efectivas que impulsen el éxito y la visibilidad de cada proyecto."
+                "position": "Desarrollador FreeLancer",
+                "companyYear": "W2edit - Fiscalía | 2025",
+                "description": "Desarrollé un módulo web para la consulta de casos de denuncias, utilizando React y Tailwind CSS para una interfaz moderna y responsiva. Integré el backend con Node.js para la conexión con una API externa, y realicé mejoras visuales tanto en el formulario de consulta como en la presentación de la información obtenida.\nEste proyecto se realizó en colaboración con la Fiscalía General de la Nación, y su objetivo es facilitar a los ciudadanos la consulta de sus denuncias a través de un sistema web eficiente y accesible."
+            },
+            {
+                "id": 4,
+                "position": "Desarrollador FreeLancer",
+                "companyYear": "Hospital San Vicente de Paul | 2024",
+                "description": "Diseñé y desarrollé un sitio web corporativo responsivo utilizando Bootstrap, JavaScript y CSS, asegurando una experiencia de usuario óptima en distintos dispositivos. Integré el backend con PHP y utilicé MySQL como motor de base de datos para gestionar eficientemente la información del sitio."
+            },
+            {
+                "id": 5,
+                "position": "Desarrollador FreeLancer",
+                "companyYear": "Alcaldía Remedios | 2024",
+                "description": "Desarrollé un aplicativo web de uso privado para la gestión de permisos y generación de cartas laborales, utilizando React y Tailwind CSS para una interfaz moderna y eficiente. La solución fue integrada con un backend en PHP y un motor de base de datos MySQL para garantizar una gestión segura y centralizada de la información."
             }
         ]
     }
