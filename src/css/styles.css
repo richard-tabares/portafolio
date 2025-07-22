@@ -20,23 +20,7 @@ body {
     transition-all;
 }
 @layer components {
-  .bottom-line {
-    /* @apply border-b conten */
-  }
-  .bottom-line::after {
-    content: ""; /* Necesario para que el seudoelemento sea visible */
-    position: absolute; /* Posicionar el seudoelemento encima del borde inferior */
-    bottom: 0; /* Colocar el seudoelemento en la parte inferior */
-    left: 0%; /* Ajustar la posición inicial del degradado */
-    width: 100%; /* Ancho del degradado */
-    height: 1px; /* Altura del degradado */
-    background: linear-gradient(
-      to right,
-      transparent,
-      #999,
-      transparent
-    ); /* Degradado lineal desvanecido */
-  }
+
   /* ******************** */
   /* Light Theme */
   /* ******************** */

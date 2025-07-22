@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
-import { ExperienciaItems } from "./ExperienciaItems"
-import { getExperience } from "../services/usersData"
+import { ProyectosItems } from "./ProyectosItems"
+import { getProjects } from "../services/usersData"
 import { motion } from "motion/react"
-import { ExperienciaSkeleton } from "./skeleton/ExperienciaSkeleton"
+import { ProyectosSkeleton } from "./skeleton/ProyectosSkeleton"
 
-export const Experiencia = () => {
+export const Proyectos = () => {
 
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)
@@ -12,7 +12,7 @@ export const Experiencia = () => {
     useEffect(() => {
 
         const getData = async () => {
-            const data = await getExperience(1)
+            const data = await getProjects(1)
             setData(data)
             setLoading(false)
         }
@@ -20,30 +20,31 @@ export const Experiencia = () => {
         getData()
     }, [])
 
-    const ExperienciaSection = () => (
+    const ProyerctosSection = () => (
 
         <motion.section
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}>
-            <header id="experience" className="font-bold text-xl">Experiencia</header>
-            <section className="border-l-4 border-thirdLight/40 ">
-                {
-                    <ExperienciaItems data={data} />
-                }
+            <header id="projects" className="font-bold text-xl transition-all">Proyetos</header>
+            <section className="grid 2xl:grid-cols-2 grid-cols-1 gap-5 mt-8">
+
+                <ProyectosItems data={data} />
+
             </section>
+
         </motion.section>
 
     )
 
     return (
-
         <>
             {
                 loading
-                    ? <ExperienciaSkeleton />
-                    : <ExperienciaSection />
+                    ? <ProyectosSkeleton />
+                    : <ProyerctosSection />
             }
         </>
+
     )
 }

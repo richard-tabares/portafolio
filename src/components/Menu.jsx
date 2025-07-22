@@ -1,12 +1,24 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { FiAlignRight, FiMoon, FiSun, FiX } from "react-icons/fi"
 import { MenuItems } from "./MenuItems"
-import { useFetchData } from "../hooks/useFetchData"
+import { getMenu } from "../helpers/getMenu.js"
 
-export const Menu = ({jsonMenu}) => {
+export const Menu = () => {
 
-    const urlMenu = jsonMenu
-    const menuItems = useFetchData(urlMenu)
+    const [menuItems, SetMenuItems] = useState([])
+
+    const getInfo = async () => {
+        
+        const data = await getMenu()
+        SetMenuItems(data)
+
+    }
+
+    useEffect(() => {
+
+        getInfo()
+
+      }, [])
 
     const [isActiveDarkMode, setIsActiveDarkMode] = useState(false)
     const [isMobileActive, setIsMobileActive] = useState(false)
@@ -42,9 +54,9 @@ export const Menu = ({jsonMenu}) => {
                             <div className="font-bold text-xl dark:text-gray-50 block">Richard Tabares</div>
                         </a>
                         <div className={`xl:relative xl:mt-0 xl:inline fixed left-0 top-0 text-right w-full h-screen p-4 xl:p-0 lightMobileBackground dark:darkMobileBackground ${isMobileActive ? 'block' : 'hidden'}`}>
-                            <a href="#" onClick={isMobile}>
+                            <span onClick={isMobile}>
                                 <FiX className={`xl:hidden text-2xl lightIcons dark:darkIcons inline ${isMobileActive ? 'block' : 'hidden'}`} />
-                            </a>
+                            </span>
                             {
                                 <MenuItems menuItems={menuItems} isMobileActive={isMobileActive} setIsMobileActive={setIsMobileActive} />
                             }
@@ -60,13 +72,12 @@ export const Menu = ({jsonMenu}) => {
                             className={`${isActiveDarkMode ? 'hidden' : 'block'} text-2xl lightIcons dark:darkIcons inline`}
                         />
                     </a>
-                    <a
-                        href="#"
+                    <span
                         className="pr-3"
                         onClick={isMobile}>
                         <FiAlignRight
                             className={`xl:hidden text-2xl lightIcons dark:darkIcons inline ${isMobileActive ? 'hidden' : 'block'}`} />
-                    </a>
+                    </span>
                 </div>
             </nav>
 
