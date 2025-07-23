@@ -48,7 +48,7 @@ export const Menu = () => {
         <>
             <nav className="container flex items-center justify-between py-4 bg-primaryLight dark:bg-primaryDark w-full md:w-2/4 px-4 sticky top-0 z-10 opacity-[0.96]" id="#home">
                 <div className="flex gap-4 items-center">
-                    <div className="xl:w-14 xl:h-14 rounded-full bg-gray-200 w-10 h-10"></div>
+                    {/* <div className="xl:w-14 xl:h-14 rounded-full bg-gray-200 w-10 h-10 bg-[url(./RT.png)] bg-cover"></div> */}
                     <div>
                         <a href="#home">
                             <div className="font-bold text-xl dark:text-gray-50 block">Richard Tabares</div>
@@ -64,14 +64,14 @@ export const Menu = () => {
                     </div>
                 </div>
                 <div>
-                    <a href="#" className="pr-3" onClick={isDark}>
+                    <span className="pr-3 cursor-pointer" onClick={isDark}>
                         <FiMoon
                             className={`${isActiveDarkMode ? 'block' : 'hidden'} text-2xl lightIcons dark:darkIcons inline`}
                         />
                         <FiSun
                             className={`${isActiveDarkMode ? 'hidden' : 'block'} text-2xl lightIcons dark:darkIcons inline`}
                         />
-                    </a>
+                    </span>
                     <span
                         className="pr-3"
                         onClick={isMobile}>
