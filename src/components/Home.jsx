@@ -10,6 +10,7 @@ export const Home = () => {
 
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)
+    const avatarUrl = 'https://drive.google.com/uc?export=view&id=1a6A-S-QR2yjG3tz-Lzjjx0vAQhepaaVN'
 
     useEffect(() => {
 
@@ -24,13 +25,14 @@ export const Home = () => {
 
     const HomeSection = () => (
 
+
         <motion.section
             className="mt-10 grid grid-cols-1"
             initial={{ y: 10, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}>
             <div className="grid grid-cols-1 place-items-center">
-                <div className="rounded-full bg-gray-200 w-32 h-32 bg-[url(./avatar.png)] bg-cover "></div>
+                <div style={{ backgroundImage: `url('${avatarUrl}')` }} className="rounded-full bg-gray-200 w-32 h-32 bg-cover "></div>
             </div>
             <article className="mt-8 whitespace-pre-line">
                 {
