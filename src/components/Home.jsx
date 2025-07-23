@@ -30,7 +30,7 @@ export const Home = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}>
             <div className="grid grid-cols-1 place-items-center">
-                <div className="rounded-full bg-gray-200 w-36 h-36 bg-[url(./avatar.png)] bg-cover "></div>
+                <div className="rounded-full bg-gray-200 w-32 h-32 bg-[url(./avatar.png)] bg-cover "></div>
             </div>
             <article className="mt-8 whitespace-pre-line">
                 {
