@@ -10,7 +10,6 @@ export const Home = () => {
 
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)
-    const avatarUrl = 'https://drive.google.com/uc?export=view&id=1a6A-S-QR2yjG3tz-Lzjjx0vAQhepaaVN'
 
     useEffect(() => {
 
@@ -32,7 +31,7 @@ export const Home = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}>
             <div className="grid grid-cols-1 place-items-center">
-                <div style={{ backgroundImage: `url('${avatarUrl}')` }} className="rounded-full bg-gray-200 w-32 h-32 bg-cover "></div>
+                <div className="rounded-full bg-gray-200 w-32 h-32 bg-cover bg-[url(./avatar1.png)]"></div>
             </div>
             <article className="mt-8 whitespace-pre-line">
                 {
